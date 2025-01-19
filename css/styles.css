@@ -63,7 +63,7 @@
   font-family: "Montserrat", serif;
   font-weight: 700;
   height: 90vh;
-  background-image: url('./images/header-bg.jpg');
+  background-image: url('../images/header-bg.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
