@@ -422,7 +422,7 @@
 }
 
 .contact__form {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -533,6 +533,31 @@
   text-align: center;
 }
 
+@media (max-width: 1130px) {
+  .portfolio__buttons {
+    display: none;
+  }
+
+  .portfolio__items {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 50px;
+    padding-left: 17%;
+  }
+
+  .team {
+    display: none;
+  }
+  
+  .contact__form-input {
+    width: 700px;
+  }
+
+  .contact__form-textarea {
+    width: 700px;
+  }
+}
+
 @media (max-width: 716px) {
   .menu {
     display: none;
@@ -548,11 +573,7 @@
 
   .header__title {
     font-size: 70px;
-    color: black;
-  }
-
-  .header__content-decor {
-    background-color: black;
+    
   }
 
   .about {
@@ -575,16 +596,20 @@
     display: none;
   }
 
+  .title--hiden {
+    display: none;
+  }
+
   .pricing {
     display: none;
   }
 
   .contact__form-input {
-    width: 300px;
+    width: 340px;
   }
 
   .contact__form-textarea {
-    width: 300px;
+    width: 340px;
   }
 
   .footer__social {
